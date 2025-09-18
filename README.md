@@ -58,26 +58,6 @@ Distributed teams often struggle to maintain a consistent and coordinated social
 - Deployment: Fly.io / Railway / Render  
 
 ---
-
-## 📂 Project Structure
-
-socialpilot-hq/
-├── backend/
-│ ├── app/
-│ │ ├── main.py # FastAPI entrypoint
-│ │ ├── models/ # SQLAlchemy models
-│ │ ├── api/ # REST endpoints
-│ │ ├── services/ # Google, Airtable, Social posting
-│ │ ├── tasks/ # Celery background workers
-│ │ └── core/ # Config, auth, token mgmt
-│ ├── Dockerfile
-│ └── requirements.txt
-├── frontend/
-│ └── nextjs-app/ # Dashboard (Next.js)
-├── scheduler/ # Job runners, cron config
-├── docs/ # ERD, system diagrams
-└── docker-compose.yml
-
 ## Usage
 
 ### 1. Sign up & create a team
